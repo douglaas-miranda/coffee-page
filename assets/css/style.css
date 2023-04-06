@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e221e;
+    color: #FFFFFF;
+    margin-left: 5rem;
+    background-image: url("/assets/img/HERO.png");
+    background-size: 1000px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.lista--navegacao {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    align-items: center;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.lista--navegacao__item {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+
+.corpo {
+    display: flex;
+}
+
+.conteudo--principal {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+    gap: 2rem;
+}
+
+/* .conteudo--secundario {
+    background-image: url("/assets/img/HERO.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+} */
