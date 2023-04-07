@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #2e221e;
+    background-color: #241b18;
     color: #FFFFFF;
     margin-left: 5rem;
     background-image: url("/assets/img/HERO.png");
@@ -40,9 +40,25 @@ body {
     gap: 2rem;
 }
 
-/* .conteudo--secundario {
-    background-image: url("/assets/img/HERO.png");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-} */
+.conteudo--principal__texto {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 100px;
+    color: #241b18;
+    -webkit-text-stroke-color: #fce3b5;
+    -webkit-text-stroke-width: 2px;
+    
+}
+
+.conteudo--principal__div__botao {
+    display: flex;
+    gap: 1rem;
+}
+
+.conteudo--principal__botao {
+    color: #fce3b5;
+    background-color: #241b18;
+    padding: .7rem 1rem;
+    border: 1px solid #fce3b5;
+    border-radius: 3rem;
+}
