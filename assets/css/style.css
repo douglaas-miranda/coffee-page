@@ -9,7 +9,7 @@ body {
     color: #FFFFFF;
     /* margin-left: 5rem; */
     background-image: url("/assets/img/HERO.png");
-    background-size: 1000px;
+    background-size: 1200px;
     background-position-x: right;
     background-repeat: no-repeat;
 }
@@ -57,6 +57,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     list-style: none;
+    cursor: pointer;
 }
 
 .conteudo--principal {
@@ -100,5 +101,48 @@ body {
 
 .conteudo--secundario__img {
     display: inline-block;
-    margin-top: 5.1rem;
+    margin-top: 13.1rem;
+}
+
+.quem--somos {
+    margin-top: 8rem;
+}
+
+.quem--somos__titulo {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce3b5;
+    margin-right: 4rem;
+    position: relative;
+    bottom: 3.8rem;
+    white-space: nowrap;
+    display: flex;
+    justify-content: end;
+}
+
+.quem--somos__container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    display: flex;
+    background-color: #54372B;
+    width: 1200px;
+    height: 400px;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.quem--somos__img {
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+}
+
+.quem--somos__texto {
+    display: inline-block;
+    margin-right: 2rem;
+    line-height: 2rem;
+    font-size: 18px;
 }
