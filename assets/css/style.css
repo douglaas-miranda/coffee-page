@@ -325,6 +325,7 @@ body {
 .reserva--subcontainer__form_hora {
     grid-column: 2;
     grid-row: 2;
+    text-align: center;
 }
 
 .reserva--subcontainer__form_nome {
@@ -346,4 +347,8 @@ body {
 .reserva--subcontainer__form_enviar {
     grid-column: 2;
     grid-row: 7;
+}
+
+.radius {
+    border-radius: 1rem;
 }
