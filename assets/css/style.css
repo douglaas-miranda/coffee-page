@@ -25,12 +25,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    position: fixed;
+    right: 0;
+    background-color: #241b18bb;
+    width: 100vw;
 }
 
 .navegacao--logo {
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 }
 
 .navegacao--imgs {
@@ -145,4 +150,45 @@ body {
     margin-right: 2rem;
     line-height: 2rem;
     font-size: 18px;
+}
+
+.servicos {
+    margin-top: 5rem;
+}
+
+.servicos--paragrafo {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce3b5;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.servicos--container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.servicos--subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #54372B;
+    border-radius: 2rem;
+    padding: 2rem 2rem;
+    width: 150px;
+    height: 205px;
+}
+
+.servicos--subcontainer__paragrafo {
+    text-align: center;
+    color: #fce3b5;
 }
