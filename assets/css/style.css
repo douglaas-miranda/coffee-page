@@ -7,7 +7,6 @@
 body {
     background-color: #241b18;
     color: #FFFFFF;
-    /* margin-left: 5rem; */
     background-image: url("/assets/img/HERO.png");
     background-size: 1200px;
     background-position-x: right;
@@ -18,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 470px;
-    margin-left: 5rem;
+    margin-left: 8rem;
 }
 
 .navegacao {
@@ -124,6 +123,7 @@ body {
     padding: .7rem 1rem;
     border: 1px solid #fce3b5;
     border-radius: 3rem;
+    cursor: pointer;
 }
 
 .conteudo--secundario__img {
@@ -175,10 +175,11 @@ body {
 }
 
 .servicos {
-    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 1200px;
+    margin: 5rem auto 0 auto;
 }
 
 .servicos--paragrafo {
@@ -283,6 +284,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1200px;
+    margin: 0 auto 0 auto;
 }
 
 .reserva--container__titulo {
@@ -351,4 +354,53 @@ body {
 
 .radius {
     border-radius: 1rem;
+}
+
+.recomendado {
+    padding: 3rem 0;
+}
+
+.recomendado--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.recomendado--container__titulo {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce3b5;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.recomendado--subcontainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.recomendado--subcontainer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #54372B;
+    border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.recomendado--subcontainer__descricao {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1rem 0;
+    background-color: #976753;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
 }
