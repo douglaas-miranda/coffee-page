@@ -126,5 +126,26 @@
         <img src="/assets/img/pct_cafe.png" alt="Pacote de café." class="oferta--container__img">
       </div>
   </section>
+  <section class="reserva">
+    <div class="reserva--container">
+      <p class="reserva--container__titulo">Faça sua Reserva</p>
+      <div class="reserva--subcontainer">
+        <img src="/assets/img/reserva.png" alt="Faça sua reserva." class="reserva--subcontainer__img">
+        <form action="" method="POST" class="reserva--subcontainer__form">
+          <label for="data"></label>
+          <input type="date" id="data" name="data" required class="reserva--subcontainer__form_data">
+          <label for="hora" ></label>
+          <input type="time" id="hora" name="hora" required class="reserva--subcontainer__form_hora">
+          <label for="nome"></label>
+          <input type="text" placeholder="Nome" id="nome" name="nome" required class="reserva--subcontainer__form_nome">
+          <label for="tel"></label>
+          <input type="tel" name="tel" id="tel" placeholder="Telefone" required class="reserva--subcontainer__form_tel">
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="E-mail" required class="reserva--subcontainer__form_email">
+          <input type="submit" value="Enviar" class="reserva--subcontainer__form_enviar conteudo--principal__botao">
+        </form>
+      </div>
+    </div>
+  </section>
   </body>
 </html>
