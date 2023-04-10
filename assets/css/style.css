@@ -28,6 +28,9 @@ body {
     padding: 1rem 1rem 0 1rem;
     position: fixed;
     right: 0;
+    left: 0;
+    top: 0;
+    z-index: 99;
     background-color: #241b18bb;
     width: 100vw;
 }
@@ -147,13 +150,16 @@ body {
 
 .quem--somos__texto {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 4rem;
     line-height: 2rem;
     font-size: 18px;
 }
 
 .servicos {
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .servicos--paragrafo {
@@ -186,9 +192,65 @@ body {
     padding: 2rem 2rem;
     width: 150px;
     height: 205px;
+    cursor: pointer;
 }
 
 .servicos--subcontainer__paragrafo {
     text-align: center;
     color: #fce3b5;
+}
+
+.oferta {
+    margin: 4rem 0;
+}
+
+.oferta--container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    display: flex;
+    background-color: #54372B;
+    width: 1200px;
+    height: 400px;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.oferta--container__titulo {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce3b5;
+    margin-left: 4rem;
+    white-space: nowrap;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.oferta--container__titulo_secundario {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce3b5;
+    margin-left: 4rem;
+    white-space: nowrap;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+
+.oferta--container__texto {
+    display: inline-block;
+    margin-left: 4rem;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.oferta--container__botao {
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
