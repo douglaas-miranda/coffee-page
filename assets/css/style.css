@@ -7,6 +7,24 @@
 body {
     background-color: #241b18;
     color: #FFFFFF;
+    /* background-image: url("/assets/img/HERO.png");
+    background-size: 1200px;
+    background-position-x: right;
+    background-repeat: no-repeat; */
+    width: 1900px;
+    margin: 0 auto;
+}
+
+/* Responsividade */
+
+.container--principal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.background {
+    width: 1000px;
     background-image: url("/assets/img/HERO.png");
     background-size: 1200px;
     background-position-x: right;
@@ -85,23 +103,6 @@ body {
     transition: .3s;
     cursor: pointer;
 }
-
-/* Responsividade */
-
-/* .container--principal {
-    display: flex;
-    justify-content: center;
-    width: 1400px;
-    margin: 0 auto 0 auto;
-} */
-
-/* .background {
-    width: 1200px;
-    background-image: url("/assets/img/HERO.png");
-    background-size: cover;
-    background-position-x: right;
-    background-repeat: no-repeat;
-} */
 
 .conteudo--principal {
     display: flex;
@@ -547,3 +548,4 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
