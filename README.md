@@ -6,6 +6,9 @@ https://coffee-page-nine.vercel.app/
 
 
 ![Página Tia Rosa Coffe](assets/design/front-page.png)
+![Página Tia Rosa Coffe](assets/design/front-page1.png)
+![Página Tia Rosa Coffe](assets/design/front-page2.png)
+![Página Tia Rosa Coffe](assets/design/front-page3.png)
 
 <h2> Sobre o Projeto </h2>
 
