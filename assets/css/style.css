@@ -649,9 +649,7 @@ a {
 
     .background {
         display: none;
-    }
-
-  
+    }  
 
     .quem--somos {
         margin: auto 0;
@@ -674,6 +672,11 @@ a {
 
     .quem--somos__texto {
         margin: 0 1rem;
+        text-align: center;
+    }
+
+    .quem--somos__titulo {
+        margin: 0 1rem;
     }
 
     .servicos {
@@ -684,5 +687,64 @@ a {
         flex-direction: column;
         width: auto;
         gap: 1rem;
+        margin: 3rem 1rem;
+    }
+
+    .oferta {
+        width: auto;
+    }
+
+    .oferta--container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+
+    .oferta--container__titulo {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .oferta--container__titulo_secundario {
+        font-size: 30px;
+        margin-left: 1rem;
+    }
+
+    .oferta--container__texto{
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .oferta--container__botao {
+        margin: 2rem 1rem;
+    }
+
+    .oferta--container__img {
+        width: 200px;
+    }
+
+    .reserva {
+        width: auto;
+    }
+
+    .reserva--container {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .reserva--subcontainer {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0 1rem;
+    }
+
+    .reserva--subcontainer__img {
+        width: 200px;
+    }
+
+    .reserva--subcontainer__form {
+        padding: 1rem;
     }
 }
