@@ -747,4 +747,36 @@ a {
     .reserva--subcontainer__form {
         padding: 1rem;
     }
+
+    .recomendado {
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    .recomendado--container {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .recomendado--subcontainer {
+        flex-direction: column;
+    }
+
+    .recomendado--subcontainer__cafe {
+        width: 250px;
+    }
+
+    .menu {
+        width: auto;
+    }
+
+    .menu--container {
+        flex-direction: column;
+        width: auto;
+        gap:0
+    }
+
+    .menu--fonte {
+        font-size: 20px;
+    }
 }
