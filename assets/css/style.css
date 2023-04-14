@@ -679,7 +679,10 @@ a {
     }
 
     .quem--somos__titulo {
-        margin: 0 1rem;
+        position: inherit;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
     .servicos {
