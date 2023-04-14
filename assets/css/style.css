@@ -824,4 +824,46 @@ a {
     .rodape--subcontainer__grupo {
         width: 200px;
     }
+
+    .navegacao-mobile {
+        width: auto;
+        background-color: #1a1311;
+        border-radius: 0 0 1rem 1rem;      
+    }
+
+    .navegacao-mobile--menu {
+        width: auto;
+    }
+
+    .navegacao-mobile--img {
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .navegacao-mobile--container{
+        display: block;
+    }
+
+    .lista--navegacao-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 2rem;
+    }
+
+    .lista--navegacao-mobile__item{
+        list-style: none;
+        font-size: 18px;
+        padding: .5rem;
+        font-weight: bold;
+    }
+
+    .linha {
+        display: flex;
+        margin: 0 auto;
+        border-color: #2c2321;
+        width: 90%;
+    }
+
+
 }
