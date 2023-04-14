@@ -792,7 +792,7 @@ a {
         flex-direction: column;
     }
 
-    .blog--container__card1_texto, .blog--container__card12_texto,
+    .blog--container__card1_texto, .blog--container__card2_texto,
     .blog--container__card3_texto {
         font-size: 14px;
     }
