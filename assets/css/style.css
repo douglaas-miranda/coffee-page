@@ -779,4 +779,38 @@ a {
     .menu--fonte {
         font-size: 20px;
     }
+
+    .blog {
+        width: auto;
+    }
+
+    .blog--container {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .rodape {
+        width: auto;
+    }
+
+    .rodape--container {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .rodape--container__img {
+        width: 200px;
+    }
+
+    .rodape--subcontainer {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape--subcontainer__grupo {
+        width: 200px;
+    }
 }
