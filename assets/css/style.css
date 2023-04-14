@@ -826,7 +826,11 @@ a {
     }
 
     .navegacao-mobile {
-        width: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 100%;
         background-color: #1a1311;
         border-radius: 0 0 1rem 1rem;      
     }
@@ -841,6 +845,10 @@ a {
     }
 
     .navegacao-mobile--container{
+        display: none;
+    }
+
+    .block {
         display: block;
     }
 
