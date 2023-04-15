@@ -502,11 +502,11 @@ a {
 }
 
 .menu--subcontainer__texto5::after {
-    content: "R$ ------------30,00";
+    content: "------------R$ 30,00";
 }
 
 .menu--subcontainer__texto6::after {
-    content: "R$ --------30,00";
+    content: "--------R$ 30,00";
 }
 
 .menu--subcontainer__texto7::after {
