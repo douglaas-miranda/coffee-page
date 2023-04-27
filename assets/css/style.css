@@ -616,6 +616,30 @@ a {
 
 /* Responsividade Mobile */
 
+
+@media screen and (max-width: 1366px) {
+
+    body {
+        width: 1348px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container--principal {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .background {
+        height: 1000px;
+    }
+
+    .navegacao {
+        width: 1360px;
+    }
+}
+
 @media screen and (max-width: 440px){
      
     .navegacao {
@@ -879,28 +903,4 @@ a {
     }
 
 
-}
-
-
-@media screen and (max-width: 1366px) {
-
-    body {
-        width: 1348px;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-
-    .container--principal {
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    .background {
-        height: 1000px;
-    }
-
-    .navegacao {
-        width: 1360px;
-    }
 }
